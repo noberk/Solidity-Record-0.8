@@ -16,3 +16,5 @@ contract SendToken{
     }
     
 }
+
+// https://solidity-by-example.org/sending-ether/
