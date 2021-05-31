@@ -17,8 +17,14 @@ contract BlockChainOfAndrew {
         return name;
     }
     
+    /** Using keyword modifier to define a reusable function. */
     modifier isAdmin() {
-        require(myAddress == msg.sender,'you have no permission to modify.');
-        _;
+        // Reuqire function is a determination whether first parameter is true or false.
+        // if true, continue to go futher.
+        // if false, halting the current transaction
+        require(myAddress == msg.sender,'you have no permission to modify.');   
+
+        // go into the function which is called.
+        _; 
     }
 }
