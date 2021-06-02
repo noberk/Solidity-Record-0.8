@@ -11,7 +11,7 @@ contract Donation{
     }
     function donate() public payable returns (uint){
         require(msg.value >= 1 ether, ' less than 1 ether');
-        donationBalance[msg.sender] = msg.value;
+        donationBalance[msg.sender] += msg.value;
         donationState[msg.sender] = true;
         return msg.value;
     }
