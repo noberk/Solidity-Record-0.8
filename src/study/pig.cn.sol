@@ -1,20 +1,20 @@
-
 /**
- *Submitted for verification at BscScan.com on 2021-02-26
+ * 2021-02-26 已提交到BscScan验证
 */
 
 /**
-   #PIG
+   #猪币
    
-   #LIQ+#RFI+#SHIB+#DOGE, combine together to #PIG  
+   #流动性+#RFI+#SHIB+#DOGE, 组合 #PIG  
 
-    I make this #PIG to hand over it to the community.
-    Create the community by yourself if you are interested.   
-    I suggest a telegram group name for you to create: https://t.me/PigTokenBSC
+    我做了这个猪币并且移交给了社区.    
+    如果你感兴趣你可以自己创建一个社区
+    我建议电报群的名字叫 https://t.me/PigTokenBSC
 
-   Great features:
-   3% fee auto add to the liquidity pool to locked forever when selling
-   2% fee auto distribute to all holders
+   特点:
+   在卖出时3%费自动添加到流动性池,并且永久锁定.
+   2%费用自动贡献给所有持有者
+   50%放黑洞中烧毁
    50% burn to the black hole, with such big black hole and 3% fee, the strong holder will get a valuable reward
 
    I will burn liquidity LPs to burn addresses to lock the pool forever.
