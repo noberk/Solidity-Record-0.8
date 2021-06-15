@@ -1,6 +1,6 @@
 # Introduction
 
-Cause of Solidity is changing rapidly. and lots of study materials of Solidity have been out of date which almost partial and uncompleted. No systematically to help us to study. Even though we have official document, but obscure. You know most techology docs like that. They try to teach us with machine language rather than human language.
+Cause of Solidity is changing rapidly. and lots of study materials of Solidity have been out of date which are almost partial and uncompleted. No systematically to help us to study. Even though we have official document, but obscure. You know most techology docs like that. They try to teach us with machine language rather than human language.
 
 # Declare
 
