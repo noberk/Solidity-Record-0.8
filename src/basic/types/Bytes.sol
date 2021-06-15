@@ -6,7 +6,7 @@ pragma solidity >=0.4.14 <0.9.0;
 
      //Dynamic length bytes type
     bytes solt = new bytes(2);
-
+    bytes solt2= new bytes(100);
     constructor(){
         solt[0] = 0xff;
         solt[1] = 0x86;
@@ -16,4 +16,8 @@ pragma solidity >=0.4.14 <0.9.0;
     function getLengthOfBytes() external view returns (uint) {
         return solt.length;
     }
- }
+
+       function getLengthOfBytes100() external view returns (uint) {
+        return solt2.length;
+    }
+ } 
