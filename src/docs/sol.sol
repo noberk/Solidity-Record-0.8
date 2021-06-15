@@ -47,3 +47,5 @@ function (<parameter types>) {internal|external} [pure|view|payable] [returns (<
 contract Functions{
 
 }
+
+
