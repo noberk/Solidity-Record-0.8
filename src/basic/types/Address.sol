@@ -21,4 +21,12 @@ contract Addresses{
   function toAddress(uint160 decimalAddress) public pure returns (address){
       return address(decimalAddress);
   }
+
+  function donate() public payable {
+
+  }
+
+  function balanceOf() public view returns (uint) {
+      return address(this).balance;
+  }
 }
