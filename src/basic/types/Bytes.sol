@@ -42,6 +42,8 @@ pragma solidity >=0.4.14 <0.9.0;
     function pushInSolt(bytes1 _data) public  returns (bytes memory) {
          solt.push() = _data;
          return solt;
+
+      
     }
  } 
     
