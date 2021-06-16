@@ -7,9 +7,18 @@ pragma solidity 0.8.5;
  */
 contract Addresses{
 
-  address public address1 = 0x2446EE32fc5BEbB80cd1Ace04f044A4a071E0b71;
-  address public address2 = 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db;
-
+  address public address1 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+  address public address2 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+  address payable public contractOwner;
+  address payable public owner;
+  
+    
+   constructor(){
+       contractOwner = payable(address(this));  //❗❗ To get Contract address.
+       owner = payable(msg.sender);  // ❗❗ acount address
+   }
+  
+  
   /**
   * Two Addresses are able to compare with each such as type uint or bool.
   */
@@ -30,20 +39,18 @@ contract Addresses{
   
   // To get balance of this constract.
   function balanceOfThisContract() public view returns (uint) {
-      return (payable(address(this))).balance;
+      return address(this).balance;
   }
-  // To get Contract address.
-  function getContractAddress() public view returns (address){
-      return address(this);
-  }
+ 
   
     // To get balance of specific address.
   function balanceOf(address userAddress) public view returns (uint) {
       return userAddress.balance;
   }
   
-  
-  
+  //transfer token to this contract address and must with function `receive` 
+  function donate() external payable {}
+  receive() external payable {}
   // transfer token to that address which throught parameter `to`.
   function transfer(address payable to) public payable returns (bool){
       to.transfer(msg.value);
@@ -54,6 +61,7 @@ contract Addresses{
       to.transfer(msg.value/2);  // pay 1/2 tokens to the Contract address as transaction fee.
       return true;
   }
+  
   
   
  
