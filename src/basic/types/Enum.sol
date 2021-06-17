@@ -1,19 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.4.16 <0.9.0;
+pragma solidity 0.8.5;
 
-contract Numbers {
-    uint256 b = 122_11;
-}
-
-contract Strings {
-    uint256 public stringLength = bytes("\n\n1").length;
-    string public len = "\n\n1";
-    string public a = unicode"Hello 😃"; //Unicode Literals
-
-    // Hexadecimal Literals
-    string public hex1 = hex"0011223344556677";
-    string public hex2 = hex"00112233" hex"44556677";
-}
 
 /**Enums are one way to create a user-defined type in Solidity. 
 They are explicitly convertible to and from all integer types but implicit conversion is not allowed. 
@@ -39,13 +26,3 @@ contract Enums{
         return uint(defaultChoice);
     }
 }
-
-/**
-function (<parameter types>) {internal|external} [pure|view|payable] [returns (<return types>)]
-
- */
-contract Functions{
-
-}
-
-

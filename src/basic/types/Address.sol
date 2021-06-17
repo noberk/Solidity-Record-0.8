@@ -7,12 +7,11 @@ pragma solidity 0.8.5;
  */
 contract Addresses{
 
-  address public address1 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
+  address public address1 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4; // hex address with 40 lengths
   address public address2 = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
   address payable public contractOwner;
   address payable public owner;
   
-    
    constructor(){
        contractOwner = payable(address(this));  //❗❗ To get Contract address.
        owner = payable(msg.sender);  // ❗❗ acount address
