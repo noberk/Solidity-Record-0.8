@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity 0.8.5;
 
-
 /**Enums are one way to create a user-defined type in Solidity. 
 They are explicitly convertible to and from all integer types but implicit conversion is not allowed. 
 The explicit conversion from integer checks at runtime that the value lies inside the range of the enum and causes a Panic error otherwise. 

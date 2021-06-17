@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.4.14 <0.9.0;
-
+pragma solidity 0.8.5;
 
 /**
  * You should use bytes over byte[] because it is cheaper, since byte[] adds 31 padding bytes between the elements. 
