@@ -29,3 +29,10 @@ Solana is an open source project implementing a new, high-performance, permissio
 - 🌐https://solana.com
 - 📄https://solana.com/solana-whitepaper.pdf
 - 😺https://github.com/solana-labs
+
+## Aave
+
+Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.
+
+- 🌐https://aave.com/
+- 😺https://github.com/aave
