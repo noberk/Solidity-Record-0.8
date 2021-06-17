@@ -10,10 +10,18 @@ This Repo is self-study record and it will shared with anyone who want to study 
 
 ## Bitcoin
 
-- https://bitcoin.org/en/
-- https://bitcoin.org/en/bitcoin-paper
-- https://github.com/bitcoin
+- 🌐https://bitcoin.org/en
+- 📄https://bitcoin.org/en/bitcoin-paper
+- 😺https://github.com/bitcoin
 
 ## Ethereum
 
+- 🌐https://ethereum.org/en
+- 📄https://ethereum.org/en/whitepaper
+- 😺https://github.com/ethereum
+
 ##
+
+- 🌐https://polkadot.network
+- 📄https://polkadot.network/PolkaDotPaper.pdf
+- 😺https://github.com/paritytech
