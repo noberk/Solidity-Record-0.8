@@ -61,6 +61,12 @@ contract Addresses{
   }
   
   
-  
+  // Show you type conversions.
+  function convert() private {
+      bytes20 add1 = 0;
+      address add2 =address(add1);   // bytes20 is convertable to address explicitly.
+      address payable add3 = payable(add2);  // address is convertable to address payable explicitly.
+      address add4 = add3; // address payable is convertable to address implicitly.
+  }
  
 }
