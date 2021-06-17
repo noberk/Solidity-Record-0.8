@@ -20,7 +20,7 @@ This Repo is self-study record and it will shared with anyone who want to study 
 - 📄https://ethereum.org/en/whitepaper
 - 😺https://github.com/ethereum
 
-##
+## Polkadot
 
 - 🌐https://polkadot.network
 - 📄https://polkadot.network/PolkaDotPaper.pdf
