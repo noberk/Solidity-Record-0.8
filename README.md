@@ -5,3 +5,15 @@ Cause of Solidity is changing rapidly. and lots of study materials of Solidity h
 # Declare
 
 This Repo is self-study record and it will shared with anyone who want to study Solidity(0.8+) of latest version. You can freely use and copy it.
+
+# Main Project
+
+## Bitcoin
+
+- https://bitcoin.org/en/
+- https://bitcoin.org/en/bitcoin-paper
+- https://github.com/bitcoin
+
+## Ethereum
+
+##
